@@ -13,25 +13,25 @@
 class Nannyd < Formula
   desc "Execution boundary for autonomous AI agents"
   homepage "https://nanny.run"
-  version "0.1.5"
+  version "0.1.6"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
       url "https://github.com/nanny-run/nanny/releases/download/v#{version}/nanny-macos-arm64.tar.gz"
-      sha256 "c758f497faa379374bddcba32367ea141c890e46f68da0982d7ecdfd007793ce"
+      sha256 "dc114a789efcb5618b0d07d26f176198408886b5cfd714812b9a2945798ec0ed"
     end
 
     on_intel do
       url "https://github.com/nanny-run/nanny/releases/download/v#{version}/nanny-macos-x86_64.tar.gz"
-      sha256 "c17b3f791eb20b64dee9aa1bafb2af8cc3faad79d24561eba91cb2c50e2fd300"
+      sha256 "113ed0e046cac706ff4f0740a5231e41107ea0652e4f19ff5852fe71b233dd7a"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/nanny-run/nanny/releases/download/v#{version}/nanny-linux-x86_64.tar.gz"
-      sha256 "2da4e6079104c051a56c73c2ac484c9f05974450be19621d76a1b2b2fd43624a"
+      sha256 "b43dd6bffe16249f631630646ca342d9e208838680b7b7a2e59cd215a7ed9dca"
     end
   end
 
